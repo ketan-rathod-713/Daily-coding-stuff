@@ -1,0 +1,78 @@
+header{
+    background-color: green;
+}
+
+nav{
+    padding: 2px 0px;
+    background-color: rgb(79, 73, 73);
+    width: 100vw;
+   
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    background-color: inherit;
+}
+
+@media screen and (max-width: 360px) {
+    body {
+      background-color: lightgreen;
+    }
+    nav{
+       
+    }
+    ul{
+        display: flex;
+    }
+    ul li{
+        display: none;
+    }
+  }
+
+ul li{
+    background-color: inherit;
+    padding: 10px 20px;
+    flex-shrink: 2;
+}
+ul li a{
+    text-decoration: none;
+    position: relative;
+    color: white;
+}
+
+ul li a::before{
+    content: "     ";
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    left: -10px;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    height: 100%;
+    padding: 4px 10px;
+    transition: 2s all;
+    opacity: .1;
+}
+ul li a::after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    height: 100%;
+    padding: 4px 10px;
+    transition: 2s all;
+    bottom: 10px;
+    right: -10px;
+   
+    opacity: .1;
+}
+
+ul li a:hover:before,
+ul li a:hover:after{
+    width: 20%;
+    height: 20%;
+    transform: rotate(360deg);
+    opacity: .8;
+}
