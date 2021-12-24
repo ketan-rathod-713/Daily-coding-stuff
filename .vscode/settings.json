@@ -2,6 +2,13 @@
     "editor.accessibilityPageSize": 13,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "modificationsIfAvailable",
-    "editor.quickSuggestionsDelay": 1000,
-    "C_Cpp.autocompleteAddParentheses": true
+    "editor.quickSuggestionsDelay": 10,
+    "C_Cpp.autocompleteAddParentheses": true,
+    "files.associations": {
+        "chrono": "cpp",
+        "random": "cpp",
+        "limits": "cpp",
+        "valarray": "cpp",
+        "iostream": "cpp"
+    }
 }
