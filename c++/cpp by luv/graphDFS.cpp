@@ -35,6 +35,6 @@ int main()
         g[v2].push_back(v1);
     }
 
-    dfs(1);
+    dfs(3);
     return 0;
 }
