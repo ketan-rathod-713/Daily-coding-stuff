@@ -50,7 +50,7 @@ int main()
         ct++;
     }
     cout << cc.size() << endl;
-
+    cout << ct << endl; // just to check ,oh means both are same ha ha
     for (auto c_cc : cc)
     {
         for (auto vertex : c_cc)
