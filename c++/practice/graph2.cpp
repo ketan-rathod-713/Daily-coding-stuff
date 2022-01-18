@@ -2,9 +2,11 @@
 
 // Questiions to solve
 
+// do gfg of graph daily in order to master the entire graph data structure so lets dive in from now onwards
+
 // 1. cycles
 // 2. connected components
-// 3. shortest path
+// 3. shortest path by bfs
 // 4. flood fill questionn
 // 5. tree DFS
 // 6. tree LCA lowest common ancestor
