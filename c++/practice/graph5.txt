@@ -1,3 +1,5 @@
+
+
 // Now comes the Applications of DFS
 1) Detecting cycle in a graph 
 A graph has cycle if and only if we see a back edge during DFS. So we can run DFS for the graph and check for back edges. (See this for details) 
