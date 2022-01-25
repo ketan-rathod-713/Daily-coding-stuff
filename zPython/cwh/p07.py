@@ -21,3 +21,17 @@ print(b + c)  # concatination ha ha
 # we also uses negative indices sometimes
 # when we want to access last element by using -1
 print(b[2:])  # python will automatically take upto last element
+
+# Negative indices we start from last as -1 and then last to second is -2
+#  for 5 size it is -5 -4 -3 -2 -1
+# so last one is -4
+
+print(b[-4:-1])  # This is same as b[1:4]
+
+# Sliccing with skip value
+# skip 2 means har dusri value ko print karo , alternatively
+# May be it is usefull sometimes
+d = b[1:4:2]  # 2 means har dusre ko print karo
+print(d)
+d = b[1::2]  # 2 means har dusre ko print karo
+print(d)
